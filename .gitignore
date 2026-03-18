@@ -1,0 +1,21 @@
+# 환경변수 (절대 올리면 안 됨)
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.pyc
+venv/
+*.db
+*.db-shm
+*.db-wal
+
+# Node
+node_modules/
+.next/
+frontend/.next/
+frontend/node_modules/
+
+# 기타
+.DS_Store
